@@ -38,11 +38,14 @@ header ul li {
 }
 
 @media only screen and (max-width: 960px) {
+  header .logo {
+    font-size: 20px;
+  }
   header a {
     font-size: 10px;
   }
   header ul li {
-    margin-left: 35px;
+    margin-left: 28px;
   }
 }
 
@@ -73,7 +76,7 @@ header ul li {
     align-items: center;
   }
   .top-img h1 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     position: absolute;
     bottom: 55%;
@@ -125,4 +128,14 @@ footer .row {
 }
 footer .row .logo {
   color: blue;
+}
+
+@media only screen and (max-width: 960px) {
+  footer .row {
+    border-top: solid 1px ;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    padding: 14px 0;
+  }
 }
