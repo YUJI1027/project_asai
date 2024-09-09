@@ -60,6 +60,7 @@ header ul li {
 .top-img h1 {
   font-size: 20px;
   font-weight: 700;
+  letter-spacing: 0.1rem;
   position: absolute;
   bottom: 2%;
   left: 50%;
@@ -114,6 +115,24 @@ h2 {
   margin-bottom: 10px;
 }
 
+.section1 .mapline{
+  display: flex;
+  align-items: center;
+}
+
+.info-outline .info-list {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-left: 60px;
+}
+ul li .shoplabel {
+  border-bottom: solid 1px gray;
+}
+
+ul li .shoptext {
+  margin-bottom: 10px;
+}
+
 form {
   color: black;
   max-width: 540px;
@@ -151,18 +170,20 @@ input[type=submit]:hover {
 }
 
 footer {
+  border-top: solid 1px ;
   text-align: center;
   padding: 21px 0 43px;
   font-size: 13px;
 }
 footer .row {
-  border-top: solid 1px ;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: 700;
+  letter-spacing: 0.1rem;
   color: black;
   padding: 14px 0;
 }
 footer .row .logo {
+  font-size: 36px;
   color: blue;
 }
 
